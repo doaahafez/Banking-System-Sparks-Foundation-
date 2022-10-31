@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap');
+
+.main{
+width: 100%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 5;
+  width: 100%;
+  background-color: rgb(110, 110, 177);
+  color: white;
+  text-align: left;
+}
+
+.section1{
+  width: 100%;
+  height: 100vh;
+  background-color: antiquewhite;
+  background-image: url(../images/background2.jpg);
+  background-blend-mode: multiply ;
+  background-size: contain ;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+  
+.inner{
+  height: 87vh;
+  padding-inline: 5%;
+  padding-top: 10px;
+}
+
+.logo{
+  width: 200px;
+  height: 100px;
+  float: left;
+}
+
+.text-logo{
+  color: brown;
+  font-size: 30px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.imagelogo{
+  padding-left: auto;
+}
+
+.menue{
+  padding-left: 70%;
+}
+
+.menue-text{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 20px;
+  padding:15px;
+}
+
+.description{
+  height: 500px;
+  width: 30%;
+  padding-top: 100px;
+}
+
+.text-des{
+  color:rosybrown;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.text-strok{
+  font-size: 60px;
+  color: transparent;
+  -webkit-text-stroke: 1px brown;
+  font-family: Fantasy;
+}
+
+.button1{
+  background-color: brown;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  float: left;
+}
+
+.text-b1{
+  color:rosybrown ;
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 15px;
+}
+
+.button2{
+  color: transparent ;
+  border:2px solid brown;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -ms-border-radius:10px;
+  -o-border-radius:10px;
+}
+
+.text-b2{
+  color:brown ;
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 15px;
+}
